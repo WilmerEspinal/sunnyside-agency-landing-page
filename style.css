@@ -242,7 +242,7 @@ a {
     justify-content: space-around;
     margin: 80px 0 100px;
 }
-.cliect {
+.client {
     display: grid;
     width: 40%;
     max-width: 316px;
@@ -250,7 +250,7 @@ a {
     justify-items: center;
     align-content: center;
     margin: 35px 0;
-    padding: 0 7px;
+    padding: 07px;
 }
 .section_clients h2 {
     margin-top: 80px;
@@ -317,7 +317,7 @@ a {
     .container_clients {
         flex-direction: column;
     }
-    .cliect {
+    .client {
         width: 100%;
         max-width: 100%;
         padding: 0 5px;
