@@ -250,6 +250,7 @@ a {
     justify-items: center;
     align-content: center;
     margin: 35px 0;
+    padding: 0 7px;
 }
 .section_clients h2 {
     margin-top: 80px;
