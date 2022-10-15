@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 :root {
     --white: hsl(0, 0%, 100%);
     --dark-desaturated-blue: hsl(212, 27%, 19%);
@@ -47,7 +47,7 @@ a {
 .logo {
     font-size: 3rem;
     color: var(--white);
-    font-weight: bold;
+    font-weight: 700;
 }
 .header-links-list {
     display: flex;
@@ -80,7 +80,7 @@ a {
     display: grid;
     align-items: center;
     justify-items: center;
-    margin-top: 105px;
+    margin-top: 92px;
 }
 .header_title-m {
     font-size: 4.5rem;
@@ -106,7 +106,7 @@ a {
 .mobilmenu {
     width: 50%;
     max-width: 274px;
-    min-width: 230px;
+    min-width: 200px;
     height: 40vh;
     max-height: 248px;
     position: absolute;
@@ -292,6 +292,48 @@ a {
 }
 
 
+/* footer */
+footer {
+    padding: 85px 0;
+    background: hsl(167deg 44% 70%);
+}
+.footer_logo {
+    text-align: center;
+    color: var(--dark-desaturated-cyan);
+    font-size: 3rem;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.footer_links {
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.footer_links a {
+    color: var(--dark-desaturated-cyan);
+    font-size: 1.8rem;
+    margin: 0 20px;
+}
+.footer_links a:hover {
+    color: var(--white);
+    transition: 0.3s;
+}
+.footer_icons {
+    display: flex;
+    justify-content: center;
+}
+.footer_icons i {
+    font-size: 2.5rem;
+    color: var(--dark-desaturated-cyan);
+    cursor: pointer;
+    margin: 0 15px;
+}
+.footer_icons i:hover {
+    color: var(--white);
+    transition: 0.3s;
+}
+
 
 
 @media (max-width: 535px) {
@@ -349,10 +391,13 @@ a {
         height: 75vh;
     }
     .container_header_title {
-        margin-top: 125px;
+        margin-top: 105px;
     }
     .header_title-m {
         margin-bottom: 60px;
         font-size: 3.8rem;
+    }
+    .footer_links a {
+        margin: 0 10px;
     }
 }
